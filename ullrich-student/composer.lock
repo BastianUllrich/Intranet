@@ -4,15 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dff9c83a28770109dcb70dbef3679307",
+    "content-hash": "93ab4a4fa5f4ed8ead57c8694c628ecf",
     "packages": [
         {
             "name": "baul/examia-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/BastianUllrich/ExamiaBundle.git",
-                "reference": "a67ef4196cedf54cc9a0feb4bab25db8df28ee40"
+            "version": "9999999-dev",
+            "dist": {
+                "type": "path",
+                "url": "bundles/baul/examia-bundle",
+                "reference": "a67ef4196cedf54cc9a0feb4bab25db8df28ee40",
+                "shasum": null
             },
             "require": {
                 "contao/core-bundle": "4.4.*",
@@ -55,8 +56,7 @@
                 }
             ],
             "description": "Examia Bundle",
-            "homepage": "https://contao.org",
-            "time": "2020-03-01T09:27:36+00:00"
+            "homepage": "https://contao.org"
         },
         {
             "name": "beberlei/assert",

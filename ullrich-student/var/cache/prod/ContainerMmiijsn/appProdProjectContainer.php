@@ -1,6 +1,6 @@
 <?php
 
-namespace ContainerR93565n;
+namespace ContainerMmiijsn;
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -2441,7 +2441,7 @@ class appProdProjectContainer extends Container
                 ],
                 'BaulExamiaBundle' => [
                     'parent' => NULL,
-                    'path' => ($this->targetDirs[3].'/vendor/baul/examia-bundle/src'),
+                    'path' => ($this->targetDirs[3].'/bundles/baul/examia-bundle/src'),
                     'namespace' => 'Baul\\ExamiaBundle',
                 ],
                 'ContaoBootstrapCoreBundle' => [
@@ -2532,7 +2532,7 @@ class appProdProjectContainer extends Container
                 6 => ($this->targetDirs[3].'/vendor/netzmacht/contao-toolkit/src/Bundle/Resources/contao'),
                 7 => ($this->targetDirs[3].'/vendor/pdir/contao-theme-helper-bundle/src/Resources/contao'),
                 8 => ($this->targetDirs[3].'/vendor/terminal42/contao-folderpage/src/Resources/contao'),
-                9 => ($this->targetDirs[3].'/vendor/baul/examia-bundle/src/Resources/contao'),
+                9 => ($this->targetDirs[3].'/bundles/baul/examia-bundle/src/Resources/contao'),
                 10 => ($this->targetDirs[3].'/vendor/contao-bootstrap/core/src/Resources/contao'),
                 11 => ($this->targetDirs[3].'/vendor/contao-bootstrap/grid/src/Resources/contao'),
                 12 => ($this->targetDirs[3].'/vendor/contao-community-alliance/dependency-container/src/Resources/contao'),
@@ -2976,7 +2976,7 @@ class appProdProjectContainer extends Container
                 1 => 'Multilingual',
             ],
             'kernel.packages' => [
-                'baul/examia-bundle' => 'dev-master',
+                'baul/examia-bundle' => '9999999-dev',
                 'beberlei/assert' => 'v3.2.7',
                 'clue/stream-filter' => 'v1.4.1',
                 'composer/ca-bundle' => '1.2.6',

@@ -21,7 +21,7 @@ final class Versions
      * @internal
      */
     public const VERSIONS          = array (
-  'baul/examia-bundle' => 'dev-master@a67ef4196cedf54cc9a0feb4bab25db8df28ee40',
+  'baul/examia-bundle' => '9999999-dev@a67ef4196cedf54cc9a0feb4bab25db8df28ee40',
   'beberlei/assert' => 'v3.2.7@d63a6943fc4fd1a2aedb65994e3548715105abcf',
   'clue/stream-filter' => 'v1.4.1@5a58cc30a8bd6a4eb8f856adf61dd3e013f53f71',
   'composer/ca-bundle' => '1.2.6@47fe531de31fca4a1b997f87308e7d7804348f7e',
@@ -154,7 +154,7 @@ final class Versions
   'ua-parser/uap-php' => 'v3.9.7@7efc2f05b7d9817a59132e5d2e5ca91a1c071f6a',
   'webmozart/assert' => '1.7.0@aed98a490f9a8f78468232db345ab9cf606cf598',
   'webmozart/path-util' => '2.3.0@d939f7edc24c9a1bb9c0dee5cb05d8e859490725',
-  'contao/managed-edition' => 'dev-master@bb4e90366ce2526758b596a571438b170972b536',
+  'contao/managed-edition' => 'dev-master@deb1309d999cedf0d06b85d607ef0432788c32ea',
 );
 
     private function __construct()

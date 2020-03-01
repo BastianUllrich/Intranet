@@ -1,10 +1,10 @@
 {
     "users": {
-        "adminBU": {
-            "username": "adminBU",
-            "password": "$argon2id$v=19$m=65536,t=4,p=1$dd8TRNBbXENd5Oo7PV7UfQ$tiBK5ivQex8Xm9K77S7eZkDUZoiG\/vKAyzuprYVgZAo"
+        "blizadmin": {
+            "username": "blizadmin",
+            "password": "$argon2id$v=19$m=65536,t=4,p=1$j36wfywSxIMRFGTpZ+uGjQ$5vKyDGNXCIXBatuLTDphdKI5WPayDYFbdp1oLR\/okDE"
         }
     },
     "version": 2,
-    "secret": "84e12f588699433d915f5262566ea59a248a1a4d241d7ff540906ddf9b34eb3b6a0dcd23bc67fb54"
+    "secret": "9e65a9cead9c0d0295024874bb20352a80a3c26ef7a91627ba38d7d502bfe9c80fcb5b1bfe9f2280"
 }
