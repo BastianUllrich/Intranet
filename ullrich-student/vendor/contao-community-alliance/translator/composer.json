@@ -1,0 +1,58 @@
+{
+  "name": "contao-community-alliance/translator",
+  "description": "Multipurpose translation manager and interface",
+  "keywords": [
+    "contao",
+    "translation"
+  ],
+  "type":"contao-bundle",
+  "homepage": "http://c-c-a.org/",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Christian Schiffler",
+      "email": "c.schiffler@cyberspectrum.de",
+      "homepage": "http://www.cyberspectrum.de",
+      "role": "Developer"
+    },
+    {
+      "name": "Stefan Heimes",
+      "email": "stefan_heimes@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "info@contao-community-alliance.de",
+    "issues": "https://github.com/contao-community-alliance/translator/issues",
+    "irc": "irc://irc.freenode.org/contao.cca",
+    "source": "https://github.com/contao-community-alliance/translator"
+  },
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "contao/core-bundle": "^4.4",
+    "symfony/event-dispatcher": "^3.0 || ^4.0",
+    "contao-community-alliance/events-contao-bindings": "^4.4"
+  },
+  "require-dev": {
+    "phpcq/all-tasks": "^1.2",
+    "contao/manager-bundle": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ContaoCommunityAlliance\\Translator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ContaoCommunityAlliance\\Translator\\Test\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.1.x-dev",
+      "dev-support/2.0.x": "2.0.x-dev",
+      "dev-develop": "2.2.x-dev"
+    },
+    "contao-manager-plugin": "ContaoCommunityAlliance\\Translator\\ContaoManager\\Plugin"
+  }
+}

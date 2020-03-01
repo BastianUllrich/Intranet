@@ -1,0 +1,1204 @@
+{
+  "title": "Bulma",
+  "version": "1",
+  "sections": {
+    "1":{
+      "secId":"columnSetCol",
+      "secHeadline":"Col-Attribut hinzufügen",
+      "secClass":"icon-th-large",
+      "cssSet":{
+        "1":{
+          "id":"columnSetColSelect1",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "values":{
+            "1":{
+              "title":".columns",
+              "value":"columns"
+            },
+            "2":{
+              "title":".column",
+              "value":"column"
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "secId": "columnSetSize",
+      "secHeadline": "Spaltenbreiten festlegen",
+      "secClass": "icon-th-large",
+      "cssSet": {
+        "1": {
+          "id": "columnSetSizeSelect1",
+          "class": "no-icon ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-1",
+              "value": "is-1"
+            },
+            "2": {
+              "title": ".is-2",
+              "value": "is-2"
+            },
+            "3": {
+              "title": ".is-3",
+              "value": "is-3"
+            },
+            "4": {
+              "title": ".is-4",
+              "value": "is-4"
+            },
+            "5": {
+              "title": ".is-5",
+              "value": "is-5"
+            },
+            "6": {
+              "title": ".is-6",
+              "value": "is-6"
+            },
+            "7": {
+              "title": ".is-7",
+              "value": "is-7"
+            },
+            "8": {
+              "title": ".is-8",
+              "value": "is-8"
+            },
+            "9": {
+              "title": ".is-9",
+              "value": "is-9"
+            },
+            "10": {
+              "title": ".is-10",
+              "value": "is-10"
+            },
+            "11": {
+              "title": ".is-11",
+              "value": "is-11"
+            },
+            "12": {
+              "title": ".is-12",
+              "value": "is-12"
+            }
+          }
+        },
+        "2": {
+          "id": "columnSetSizeSelect2",
+          "class": "icon-mobile ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-1-mobile",
+              "value": "is-1-mobile"
+            },
+            "2": {
+              "title": ".is-2-mobile",
+              "value": "is-2-mobile"
+            },
+            "3": {
+              "title": ".is-3-mobile",
+              "value": "is-3-mobile"
+            },
+            "4": {
+              "title": ".is-4-mobile",
+              "value": "is-4-mobile"
+            },
+            "5": {
+              "title": ".is-5-mobile",
+              "value": "is-5-mobile"
+            },
+            "6": {
+              "title": ".is-6-mobile",
+              "value": "is-6-mobile"
+            },
+            "7": {
+              "title": ".is-7-mobile",
+              "value": "is-7-mobile"
+            },
+            "8": {
+              "title": ".is-8-mobile",
+              "value": "is-8-mobile"
+            },
+            "9": {
+              "title": ".is-9-mobile",
+              "value": "is-9-mobile"
+            },
+            "10": {
+              "title": ".is-10-mobile",
+              "value": "is-10-mobile"
+            },
+            "11": {
+              "title": ".is-11-mobile",
+              "value": "is-11-mobile"
+            },
+            "12": {
+              "title": ".is-12-mobile",
+              "value": "is-12-mobile"
+            }
+          }
+        },
+        "3": {
+          "id": "columnSetSizeSelect3",
+          "class": "icon-tablet ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-1-tablet",
+              "value": "is-1-tablet"
+            },
+            "2": {
+              "title": ".is-2-tablet",
+              "value": "is-2-tablet"
+            },
+            "3": {
+              "title": ".is-3-tablet",
+              "value": "is-3-tablet"
+            },
+            "4": {
+              "title": ".is-4-tablet",
+              "value": "is-4-tablet"
+            },
+            "5": {
+              "title": ".is-5-tablet",
+              "value": "is-5-tablet"
+            },
+            "6": {
+              "title": ".is-6-tablet",
+              "value": "is-6-tablet"
+            },
+            "7": {
+              "title": ".is-7-tablet",
+              "value": "is-7-tablet"
+            },
+            "8": {
+              "title": ".is-8-tablet",
+              "value": "is-8-tablet"
+            },
+            "9": {
+              "title": ".is-9-tablet",
+              "value": "is-9-tablet"
+            },
+            "10": {
+              "title": ".is-10-tablet",
+              "value": "is-10-tablet"
+            },
+            "11": {
+              "title": ".is-11-tablet",
+              "value": "is-11-tablet"
+            },
+            "12": {
+              "title": ".is-12-tablet",
+              "value": "is-12-tablet"
+            }
+          }
+        },
+        "4": {
+          "id": "columnSetSizeSelect4",
+          "class": "icon-laptop ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-1-desktop",
+              "value": "is-1-desktop"
+            },
+            "2": {
+              "title": ".is-2-desktop",
+              "value": "is-2-desktop"
+            },
+            "3": {
+              "title": ".is-3-desktop",
+              "value": "is-3-desktop"
+            },
+            "4": {
+              "title": ".is-4-desktop",
+              "value": "is-4-desktop"
+            },
+            "5": {
+              "title": ".is-5-desktop",
+              "value": "is-5-desktop"
+            },
+            "6": {
+              "title": ".is-6-desktop",
+              "value": "is-6-desktop"
+            },
+            "7": {
+              "title": ".is-7-desktop",
+              "value": "is-7-desktop"
+            },
+            "8": {
+              "title": ".is-8-desktop",
+              "value": "is-8-desktop"
+            },
+            "9": {
+              "title": ".is-9-desktop",
+              "value": "is-9-desktop"
+            },
+            "10": {
+              "title": ".is-10-desktop",
+              "value": "is-10-desktop"
+            },
+            "11": {
+              "title": ".is-11-desktop",
+              "value": "is-11-desktop"
+            },
+            "12": {
+              "title": ".is-12-desktop",
+              "value": "is-12-desktop"
+            }
+          }
+        },
+        "5": {
+          "id": "columnSetSizeSelect5",
+          "class": "icon-desktop ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-1-widescreen",
+              "value": "is-1-widescreen"
+            },
+            "2": {
+              "title": ".is-2-widescreen",
+              "value": "is-2-widescreen"
+            },
+            "3": {
+              "title": ".is-3-widescreen",
+              "value": "is-3-widescreen"
+            },
+            "4": {
+              "title": ".is-4-widescreen",
+              "value": "is-4-widescreen"
+            },
+            "5": {
+              "title": ".is-5-widescreen",
+              "value": "is-5-widescreen"
+            },
+            "6": {
+              "title": ".is-6-widescreen",
+              "value": "is-6-widescreen"
+            },
+            "7": {
+              "title": ".is-7-widescreen",
+              "value": "is-7-widescreen"
+            },
+            "8": {
+              "title": ".is-8-widescreen",
+              "value": "is-8-widescreen"
+            },
+            "9": {
+              "title": ".is-9-widescreen",
+              "value": "is-9-widescreen"
+            },
+            "10": {
+              "title": ".is-10-widescreen",
+              "value": "is-10-widescreen"
+            },
+            "11": {
+              "title": ".is-11-widescreen",
+              "value": "is-11-widescreen"
+            },
+            "12": {
+              "title": ".is-12-widescreen",
+              "value": "is-12-widescreen"
+            }
+          }
+        },
+        "6": {
+          "id": "columnSetSizeSelect6",
+          "class": "icon-desktop ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-1-fullhd",
+              "value": "is-1-fullhd"
+            },
+            "2": {
+              "title": ".is-2-fullhd",
+              "value": "is-2-fullhd"
+            },
+            "3": {
+              "title": ".is-3-fullhd",
+              "value": "is-3-fullhd"
+            },
+            "4": {
+              "title": ".is-4-fullhd",
+              "value": "is-4-fullhd"
+            },
+            "5": {
+              "title": ".is-5-fullhd",
+              "value": "is-5-fullhd"
+            },
+            "6": {
+              "title": ".is-6-fullhd",
+              "value": "is-6-fullhd"
+            },
+            "7": {
+              "title": ".is-7-fullhd",
+              "value": "is-7-fullhd"
+            },
+            "8": {
+              "title": ".is-8-fullhd",
+              "value": "is-8-fullhd"
+            },
+            "9": {
+              "title": ".is-9-fullhd",
+              "value": "is-9-fullhd"
+            },
+            "10": {
+              "title": ".is-10-fullhd",
+              "value": "is-10-fullhd"
+            },
+            "11": {
+              "title": ".is-11-fullhd",
+              "value": "is-11-fullhd"
+            },
+            "12": {
+              "title": ".is-12-fullhd",
+              "value": "is-12-fullhd"
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "secId": "columnSetOffset",
+      "secHeadline": "Spalten-Offset festlegen",
+      "secClass": "icon-indent-right",
+      "cssSet": {
+        "1": {
+          "id": "columnSetOffsetSelect1",
+          "class": "no-icon ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-offset-1",
+              "value": "is-offset-1"
+            },
+            "2": {
+              "title": ".is-offset-2",
+              "value": "is-offset-2"
+            },
+            "3": {
+              "title": ".is-offset-3",
+              "value": "is-offset-3"
+            },
+            "4": {
+              "title": ".is-offset-4",
+              "value": "is-offset-4"
+            },
+            "5": {
+              "title": ".is-offset-5",
+              "value": "is-offset-5"
+            },
+            "6": {
+              "title": ".is-offset-6",
+              "value": "is-offset-6"
+            },
+            "7": {
+              "title": ".is-offset-7",
+              "value": "is-offset-7"
+            },
+            "8": {
+              "title": ".is-offset-8",
+              "value": "is-offset-8"
+            },
+            "9": {
+              "title": ".is-offset-9",
+              "value": "is-offset-9"
+            },
+            "10": {
+              "title": ".is-offset-10",
+              "value": "is-offset-10"
+            },
+            "11": {
+              "title": ".is-offset-11",
+              "value": "is-offset-11"
+            },
+            "12": {
+              "title": ".is-offset-12",
+              "value": "is-offset-12"
+            }
+          }
+        },
+        "2": {
+          "id": "columnSetOffsetSelect2",
+          "class": "icon-mobile ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-offset-1-mobile",
+              "value": "is-offset-1-mobile"
+            },
+            "2": {
+              "title": ".is-offset-2-mobile",
+              "value": "is-offset-2-mobile"
+            },
+            "3": {
+              "title": ".is-offset-3-mobile",
+              "value": "is-offset-3-mobile"
+            },
+            "4": {
+              "title": ".is-offset-4-mobile",
+              "value": "is-offset-4-mobile"
+            },
+            "5": {
+              "title": ".is-offset-5-mobile",
+              "value": "is-offset-5-mobile"
+            },
+            "6": {
+              "title": ".is-offset-6-mobile",
+              "value": "is-offset-6-mobile"
+            },
+            "7": {
+              "title": ".is-offset-7-mobile",
+              "value": "is-offset-7-mobile"
+            },
+            "8": {
+              "title": ".is-offset-8-mobile",
+              "value": "is-offset-8-mobile"
+            },
+            "9": {
+              "title": ".is-offset-9-mobile",
+              "value": "is-offset-9-mobile"
+            },
+            "10": {
+              "title": ".is-offset-10-mobile",
+              "value": "is-offset-10-mobile"
+            },
+            "11": {
+              "title": ".is-offset-11-mobile",
+              "value": "is-offset-11-mobile"
+            },
+            "12": {
+              "title": ".is-offset-12-mobile",
+              "value": "is-offset-12-mobile"
+            }
+          }
+        },
+        "3": {
+          "id": "columnSetOffsetSelect3",
+          "class": "icon-tablet ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-offset-1-tablet",
+              "value": "is-offset-1-tablet"
+            },
+            "2": {
+              "title": ".is-offset-2-tablet",
+              "value": "is-offset-2-tablet"
+            },
+            "3": {
+              "title": ".is-offset-3-tablet",
+              "value": "is-offset-3-tablet"
+            },
+            "4": {
+              "title": ".is-offset-4-tablet",
+              "value": "is-offset-4-tablet"
+            },
+            "5": {
+              "title": ".is-offset-5-tablet",
+              "value": "is-offset-5-tablet"
+            },
+            "6": {
+              "title": ".is-offset-6-tablet",
+              "value": "is-offset-6-tablet"
+            },
+            "7": {
+              "title": ".is-offset-7-tablet",
+              "value": "is-offset-7-tablet"
+            },
+            "8": {
+              "title": ".is-offset-8-tablet",
+              "value": "is-offset-8-tablet"
+            },
+            "9": {
+              "title": ".is-offset-9-tablet",
+              "value": "is-offset-9-tablet"
+            },
+            "10": {
+              "title": ".is-offset-10-tablet",
+              "value": "is-offset-10-tablet"
+            },
+            "11": {
+              "title": ".is-offset-11-tablet",
+              "value": "is-offset-11-tablet"
+            },
+            "12": {
+              "title": ".is-offset-12-tablet",
+              "value": "is-offset-12-tablet"
+            }
+          }
+        },
+        "4": {
+          "id": "columnSetOffsetSelect4",
+          "class": "icon-laptop ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-offset-1-desktop",
+              "value": "is-offset-1-desktop"
+            },
+            "2": {
+              "title": ".is-offset-2-desktop",
+              "value": "is-offset-2-desktop"
+            },
+            "3": {
+              "title": ".is-offset-3-desktop",
+              "value": "is-offset-3-desktop"
+            },
+            "4": {
+              "title": ".is-offset-4-desktop",
+              "value": "is-offset-4-desktop"
+            },
+            "5": {
+              "title": ".is-offset-5-desktop",
+              "value": "is-offset-5-desktop"
+            },
+            "6": {
+              "title": ".is-offset-6-desktop",
+              "value": "is-offset-6-desktop"
+            },
+            "7": {
+              "title": ".is-offset-7-desktop",
+              "value": "is-offset-7-desktop"
+            },
+            "8": {
+              "title": ".is-offset-8-desktop",
+              "value": "is-offset-8-desktop"
+            },
+            "9": {
+              "title": ".is-offset-9-desktop",
+              "value": "is-offset-9-desktop"
+            },
+            "10": {
+              "title": ".is-offset-10-desktop",
+              "value": "is-offset-10-desktop"
+            },
+            "11": {
+              "title": ".is-offset-11-desktop",
+              "value": "is-offset-11-desktop"
+            },
+            "12": {
+              "title": ".is-offset-12-desktop",
+              "value": "is-offset-12-desktop"
+            }
+          }
+        },
+        "5": {
+          "id": "columnSetOffsetSelect5",
+          "class": "icon-desktop ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-offset-1-widescreen",
+              "value": "is-offset-1-widescreen"
+            },
+            "2": {
+              "title": ".is-offset-2-widescreen",
+              "value": "is-offset-2-widescreen"
+            },
+            "3": {
+              "title": ".is-offset-3-widescreen",
+              "value": "is-offset-3-widescreen"
+            },
+            "4": {
+              "title": ".is-offset-4-widescreen",
+              "value": "is-offset-4-widescreen"
+            },
+            "5": {
+              "title": ".is-offset-5-widescreen",
+              "value": "is-offset-5-widescreen"
+            },
+            "6": {
+              "title": ".is-offset-6-widescreen",
+              "value": "is-offset-6-widescreen"
+            },
+            "7": {
+              "title": ".is-offset-7-widescreen",
+              "value": "is-offset-7-widescreen"
+            },
+            "8": {
+              "title": ".is-offset-8-widescreen",
+              "value": "is-offset-8-widescreen"
+            },
+            "9": {
+              "title": ".is-offset-9-widescreen",
+              "value": "is-offset-9-widescreen"
+            },
+            "10": {
+              "title": ".is-offset-10-widescreen",
+              "value": "is-offset-10-widescreen"
+            },
+            "11": {
+              "title": ".is-offset-11-widescreen",
+              "value": "is-offset-11-widescreen"
+            },
+            "12": {
+              "title": ".is-offset-12-widescreen",
+              "value": "is-offset-12-widescreen"
+            }
+          }
+        },
+        "6": {
+          "id": "columnSetOffsetSelect6",
+          "class": "icon-desktop ac-col6",
+          "type": "select",
+          "values": {
+            "1": {
+              "title": ".is-offset-1-fullhd",
+              "value": "is-offset-1-fullhd"
+            },
+            "2": {
+              "title": ".is-offset-2-fullhd",
+              "value": "is-offset-2-fullhd"
+            },
+            "3": {
+              "title": ".is-offset-3-fullhd",
+              "value": "is-offset-3-fullhd"
+            },
+            "4": {
+              "title": ".is-offset-4-fullhd",
+              "value": "is-offset-4-fullhd"
+            },
+            "5": {
+              "title": ".is-offset-5-fullhd",
+              "value": "is-offset-5-fullhd"
+            },
+            "6": {
+              "title": ".is-offset-6-fullhd",
+              "value": "is-offset-6-fullhd"
+            },
+            "7": {
+              "title": ".is-offset-7-fullhd",
+              "value": "is-offset-7-fullhd"
+            },
+            "8": {
+              "title": ".is-offset-8-fullhd",
+              "value": "is-offset-8-fullhd"
+            },
+            "9": {
+              "title": ".is-offset-9-fullhd",
+              "value": "is-offset-9-fullhd"
+            },
+            "10": {
+              "title": ".is-offset-10-fullhd",
+              "value": "is-offset-10-fullhd"
+            },
+            "11": {
+              "title": ".is-offset-11-fullhd",
+              "value": "is-offset-11-fullhd"
+            },
+            "12": {
+              "title": ".is-offset-12-fullhd",
+              "value": "is-offset-12-fullhd"
+            }
+          }
+        }
+      }
+    },
+    "4":{
+      "secId":"columnSetColumnClasses",
+      "secHeadline":"Weitere Klassen für Spalten",
+      "secClass":"col6",
+      "cssSet":{
+        "1":{
+          "id":"columnSetColumnClassesSelect1",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Ohne Abstand",
+          "values":{
+            "1":{
+              "title":".is-gapless",
+              "value":"is-gapless"
+            }
+          }
+        },
+        "2":{
+          "id":"columnSetColumnClassesSelect2",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Zentrierte Ausrichtung",
+          "values":{
+            "1":{
+              "title":".is-centered",
+              "value":"is-centered"
+            }
+          }
+        },
+        "3":{
+          "id":"columnSetColumnClassesSelect3",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Flexible Ausrichtung",
+          "values":{
+            "1":{
+              "title":".is-multiline",
+              "value":"is-multiline"
+            }
+          }
+        }
+      }
+    },
+    "5":{
+      "secId":"columnSetColors",
+      "secHeadline":"Farben",
+      "secClass":"col6",
+      "cssSet":{
+        "1":{
+          "id":"columnSetColor",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Hauptfarben",
+          "values":{
+            "1":{
+              "title":".is-primary",
+              "value":"is-primary",
+              "selected":"selected"
+            },
+            "2":{
+              "title":".is-link",
+              "value":"is-link"
+            },
+            "3":{
+              "title":".is-info",
+              "value":"is-info"
+            },
+            "4":{
+              "title":".is-success",
+              "value":"is-success"
+            },
+            "5":{
+              "title":".is-warning",
+              "value":"is-warning"
+            },
+            "6":{
+              "title":".is-danger",
+              "value":"is-danger"
+            }
+          }
+        },
+        "2":{
+          "id":"columnSetTextColor",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Textfarbe",
+          "values":{
+            "1":{
+              "title":".has-text-white",
+              "value":"has-text-white"
+            },
+            "2":{
+              "title":".has-text-black",
+              "value":"has-text-black"
+            },
+            "3":{
+              "title":".has-text-light",
+              "value":"has-text-light"
+            },
+            "4":{
+              "title":".has-text-dark",
+              "value":"has-text-dark"
+            },
+            "5":{
+              "title":".has-text-primary",
+              "value":"has-text-primary"
+            },
+            "6":{
+              "title":".has-text-info",
+              "value":"has-text-info"
+            },
+            "7":{
+              "title":".has-text-link",
+              "value":"has-text-link"
+            },
+            "8":{
+              "title":".has-text-success",
+              "value":"has-text-success"
+            },
+            "9":{
+              "title":".has-text-warning",
+              "value":"has-text-warning"
+            },
+            "10":{
+              "title":".has-text-danger",
+              "value":"has-text-danger"
+            },
+            "11":{
+              "title":".has-text-black-bis",
+              "value":"has-text-black-bis"
+            },
+            "12":{
+              "title":".has-text-black-ter",
+              "value":"has-text-black-ter"
+            },
+            "13":{
+              "title":".has-text-grey-darker",
+              "value":"has-text-grey-darker"
+            },
+            "14":{
+              "title":".has-text-grey-dark",
+              "value":"has-text-grey-dark"
+            },
+            "15":{
+              "title":".has-text-grey",
+              "value":"has-text-grey"
+            },
+            "16":{
+              "title":".has-text-grey-light",
+              "value":"has-text-grey-light"
+            },
+            "17":{
+              "title":".has-text-grey-lighter",
+              "value":"has-text-grey-lighter"
+            },
+            "18":{
+              "title":".has-text-white-ter",
+              "value":"has-text-white-ter"
+            },
+            "19":{
+              "title":".has-text-white-bis",
+              "value":"has-text-white-bis"
+            }
+          }
+        },
+        "3":{
+          "id":"columnSetBackgroundColor",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Hintergrundfarbe",
+          "values":{
+            "1":{
+              "title":".has-background-white",
+              "value":"has-background-white"
+            },
+            "2":{
+              "title":".has-background-black",
+              "value":"has-background-black"
+            },
+            "3":{
+              "title":".has-background-light",
+              "value":"has-background-light"
+            },
+            "4":{
+              "title":".has-background-dark",
+              "value":"has-background-dark"
+            },
+            "5":{
+              "title":".has-background-primary",
+              "value":"has-background-primary"
+            },
+            "6":{
+              "title":".has-background-info",
+              "value":"has-background-info"
+            },
+            "7":{
+              "title":".has-background-link",
+              "value":"has-background-link"
+            },
+            "8":{
+              "title":".has-background-success",
+              "value":"has-background-success"
+            },
+            "9":{
+              "title":".has-background-warning",
+              "value":"has-background-warning"
+            },
+            "10":{
+              "title":".has-background-danger",
+              "value":"has-background-danger"
+            },
+            "11":{
+              "title":".has-background-black-bis",
+              "value":"has-background-black-bis"
+            },
+            "12":{
+              "title":".has-background-black-ter",
+              "value":"has-background-black-ter"
+            },
+            "13":{
+              "title":".has-background-grey-darker",
+              "value":"has-background-grey-darker"
+            },
+            "14":{
+              "title":".has-background-grey-dark",
+              "value":"has-background-grey-dark"
+            },
+            "15":{
+              "title":".has-background-grey",
+              "value":"has-background-grey"
+            },
+            "16":{
+              "title":".has-background-grey-light",
+              "value":"has-background-grey-light"
+            },
+            "17":{
+              "title":".has-background-grey-lighter",
+              "value":"has-background-grey-lighter"
+            },
+            "18":{
+              "title":".has-background-white-ter",
+              "value":"has-background-white-ter"
+            },
+            "19":{
+              "title":".has-background-white-bis",
+              "value":"has-background-white-bis"
+            }
+          }
+        }
+      }
+    },
+    "6":{
+      "secId":"columnSetClasses",
+      "secHeadline":"Klassen für Inhaltselemente",
+      "secClass":"",
+      "cssSet":{
+        "1":{
+          "id":"columnSetClass",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label":"Button",
+          "values":{
+            "1":{
+              "title":".button",
+              "value":"button"
+            }
+          }
+        },
+        "2":{
+          "id":"columnSetSize",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Größe",
+          "values":{
+            "1":{
+              "title":".is-small",
+              "value":"is-small"
+            },
+            "2":{
+              "title":".is-medium",
+              "value":"is-medium"
+            },
+            "3":{
+              "title":".is-large",
+              "value":"is-large"
+            }
+          }
+        },
+        "3":{
+          "id":"columnSetStyle",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Style",
+          "values":{
+            "1":{
+              "title":".is-outlined",
+              "value":"is-outlined"
+            },
+            "2":{
+              "title":".is-loading",
+              "value":"is-loading"
+            }
+          }
+        },
+        "4":{
+          "id":"columnSetFloat",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Float",
+          "values":{
+            "1":{
+              "title":".is-clearfix",
+              "value":"is-clearfix"
+            },
+            "2":{
+              "title":".is-pulled-left",
+              "value":"is-pulled-left"
+            },
+            "3":{
+              "title":".is-pulled-right",
+              "value":"is-pulled-right"
+            }
+          }
+        },
+        "5":{
+          "id":"columnSetSpacing",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Abstand entfernen",
+          "values":{
+            "1":{
+              "title":".is-marginless",
+              "value":"is-marginless"
+            },
+            "2":{
+              "title":".is-paddingless",
+              "value":"is-paddingless"
+            }
+          }
+        },
+        "6":{
+          "id":"columnSetOverlay",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Overlay",
+          "values":{
+            "1":{
+              "title":".is-overlay",
+              "value":"is-overlay"
+            }
+          }
+        },
+        "7":{
+          "id":"columnSetClipped",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Overflow hidden",
+          "values":{
+            "1":{
+              "title":".is-clipped",
+              "value":"is-clipped"
+            }
+          }
+        },
+        "8":{
+          "id":"columnSetRadiusless",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Radius entfernen",
+          "values":{
+            "1":{
+              "title":".is-radiusless",
+              "value":"is-radiusless"
+            }
+          }
+        },
+        "9":{
+          "id":"columnSetShadowless",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Schatten entfernen",
+          "values":{
+            "1":{
+              "title":".is-shadowless",
+              "value":"is-shadowless"
+            }
+          }
+        },
+        "10":{
+          "id":"columnSetUnselectable",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Text nicht auswählbar",
+          "values":{
+            "1":{
+              "title":".is-unselectable",
+              "value":"is-unselectable"
+            }
+          }
+        },
+        "11":{
+          "id":"columnSetInvisible",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Visibility hidden",
+          "values":{
+            "1":{
+              "title":".is-invisible",
+              "value":"is-invisible"
+            }
+          }
+        },
+        "12":{
+          "id":"columnSetDisplay",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Display",
+          "values":{
+            "1":{
+              "title":".is-hidden",
+              "value":"is-hidden"
+            },
+            "2":{
+              "title":".is-block",
+              "value":"is-block"
+            },
+            "3":{
+              "title":".is-flex",
+              "value":"is-flex"
+            },
+            "4":{
+              "title":".is-inline",
+              "value":"is-inline"
+            },
+            "5":{
+              "title":".is-inline-block",
+              "value":"is-inline-block"
+            },
+            "6":{
+              "title":".is-inline-flex",
+              "value":"is-inline-flex"
+            }
+          }
+        },
+        "13":{
+          "id":"columnSetSrOnly",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Element verstecken (außer Screen Reader)",
+          "values":{
+            "1":{
+              "title":".is-sr-only",
+              "value":"is-sr-only"
+            }
+          }
+        },
+        "14":{
+          "id":"columnSetRelative",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Position",
+          "values":{
+            "1":{
+              "title":".is-relative",
+              "value":"is-relative"
+            }
+          }
+        },
+        "15":{
+          "id":"columnSetIcon",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Icon",
+          "values":{
+            "1":{
+              "title":".icon",
+              "value":"icon"
+            }
+          }
+        },
+        "16":{
+          "id":"columnSetTextAlignment",
+          "class":"no-icon ac-col6",
+          "type":"select",
+          "label": "Textausrichtung",
+          "values":{
+            "1":{
+              "title":".has-text-left",
+              "value":"has-text-left"
+            },
+            "2":{
+              "title":".has-text-centered",
+              "value":"has-text-centered"
+            },
+            "3":{
+              "title":".has-text-right",
+              "value":"has-text-right"
+            }
+          }
+        }
+      }
+    }
+  }
+}

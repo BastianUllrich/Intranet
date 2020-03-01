@@ -1,0 +1,19 @@
+Loading composer repositories with package information
+Installing dependencies from lock file
+Nothing to install or update
+Package oyejorge/less.php is abandoned, you should avoid using it. No replacement was suggested.
+Generating optimized autoload files
+InvalidArgumentException: Config file "/var/www/ullrich-student/contao-manager/composer-install.set.json" does not exist. in phar:///var/www/ullrich-student/web/contao-manager.phar.php/api/Process/AbstractProcess.php:56
+Stack trace:
+#0 phar:///var/www/ullrich-student/web/contao-manager.phar.php/api/Process/ProcessRunner.php(185): Contao\ManagerApi\Process\AbstractProcess::readConfig('/var/www/ullric...')
+#1 phar:///var/www/ullrich-student/web/contao-manager.phar.php/api/Process/ProcessRunner.php(116): Contao\ManagerApi\Process\ProcessRunner->loadConfig()
+#2 phar:///var/www/ullrich-student/web/contao-manager.phar.php/api/Process/ProcessRunner.php(61): Contao\ManagerApi\Process\ProcessRunner->wait(1)
+#3 phar:///var/www/ullrich-student/web/contao-manager.phar.php/api/Command/ProcessRunnerCommand.php(46): Contao\ManagerApi\Process\ProcessRunner->run()
+#4 phar:///var/www/ullrich-student/web/contao-manager.phar.php/vendor/symfony/console/Command/Command.php(255): Contao\ManagerApi\Command\ProcessRunnerCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 phar:///var/www/ullrich-student/web/contao-manager.phar.php/vendor/symfony/console/Application.php(1030): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 phar:///var/www/ullrich-student/web/contao-manager.phar.php/vendor/symfony/console/Application.php(272): Symfony\Component\Console\Application->doRunCommand(Object(Contao\ManagerApi\Command\ProcessRunnerCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 phar:///var/www/ullrich-student/web/contao-manager.phar.php/api/ApiApplication.php(70): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 phar:///var/www/ullrich-student/web/contao-manager.phar.php/vendor/symfony/console/Application.php(148): Contao\ManagerApi\ApiApplication->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 phar:///var/www/ullrich-student/web/contao-manager.phar.php/api/console(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput))
+#10 /var/www/ullrich-student/web/contao-manager.phar.php(57): require('phar:///var/www...')
+#11 {main}

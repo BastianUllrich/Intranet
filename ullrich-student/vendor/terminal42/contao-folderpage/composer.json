@@ -1,0 +1,40 @@
+{
+    "name": "terminal42/contao-folderpage",
+    "type": "contao-bundle",
+    "description": "Provides a new page type for Contao that allows you to group pages into folders.",
+    "keywords": ["contao", "folder", "page", "folderpage"],
+    "license": "LGPL-3.0-or-later",
+    "authors":[
+        {
+            "name":"terminal42 gmbh",
+            "homepage":"http://terminal42.ch"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/terminal42/contao-folderpage/issues",
+        "source": "https://github.com/terminal42/contao-folderpage",
+        "forum": "https://community.contao.org"
+    },
+    "require": {
+        "php": "^5.4 || ^7.0",
+        "contao/core-bundle": "^4.2"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0",
+        "friendsofphp/php-cs-fixer": "^2.1"
+    },
+    "replace": {
+        "contao-legacy/folderpage": "self.version"
+    },
+    "conflict": {
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Terminal42\\FolderpageBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Terminal42\\FolderpageBundle\\ContaoManager\\Plugin"
+    }
+}

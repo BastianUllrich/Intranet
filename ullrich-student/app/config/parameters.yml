@@ -1,0 +1,8 @@
+# This file has been auto-generated during installation
+parameters:
+    database_host: localhost
+    database_port: 3306
+    database_user: ullrich
+    database_password: bachelor2019!
+    database_name: ullrich
+    secret: 159536e1ed5a368c6ba231c5ea8603527de267e78211ac3e105a7372bce892a0

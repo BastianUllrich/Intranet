@@ -1,0 +1,58 @@
+{
+    "name":"contao-bootstrap/core",
+    "description":"Core of Contao Bootstrap extension",
+    "keywords":["bootstrap", "contao", "core"],
+    "type":"contao-bundle",
+    "license":"LGPL-3.0-or-later",
+    "authors":[
+        {
+            "name":"David Molineus",
+            "email":"mail@netzmacht.de",
+            "homepage":"https://netzmacht.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "email":"mail@netzmacht.de",
+        "issues":"https://github.com/contao-bootstrap/core/issues",
+        "wiki":"http://contao-bootstrap.netzmacht.de",
+        "source":"https://github.com/contao-bootstrap/core"
+    },
+    "require":{
+        "php":">=7.1",
+        "contao/core-bundle":"^4.4",
+        "contao-community-alliance/meta-palettes": "^2.0 || ^1.11",
+        "doctrine/doctrine-bundle": "~1.6"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0",
+        "phpcq/all-tasks": "^1.2",
+        "phpspec/phpspec": "^4.0"
+    },
+    "conflict": {
+        "netzmacht/contao-bootstrap": "*"
+    },
+    "suggest": {
+        "twbs/bootstrap": "Official Bootstrap package",
+        "components/bootstrap": "Bootstrap Components package"
+    },
+    "autoload": {
+        "psr-4": { "ContaoBootstrap\\Core\\": "src/" }
+    },
+    "extra":{
+        "branch-alias": {
+            "dev-master": "2.0.x-dev",
+            "dev-develop": "2.1.x-dev",
+            "dev-support/1.x": "1.1.x-dev"
+        },
+        "contao": {
+            "transifex": {
+                "project": "contao-bootstrap",
+                "prefix": "core-",
+                "languages_cto": "src/Resources/contao/languages",
+                "languages_tx": ".tx"
+            }
+        },
+        "contao-manager-plugin": "ContaoBootstrap\\Core\\ContaoManager\\Plugin"
+    }
+}

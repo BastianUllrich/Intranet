@@ -1,0 +1,18 @@
+<div class="headerImage <?= $this->class ?>" <?= $this->cssId ?>>
+
+	<?php /* <h1><img src="<?= $this->picture['img']['src'] ?>"></h1> */ ?>
+
+	<?php if(strpos($this->class,"smaller") === false): ?>
+		<h1>{{picture::<?= $this->picture['img']['src'] ?>?size=12&alt=<?= $this->picture['alt'] ?> }}</h1>
+	<?php else: ?>
+		<h1>{{picture::<?= $this->picture['img']['src'] ?>?size=13&alt=<?= $this->picture['alt'] ?> }}</h1>
+	<?php endif; ?>
+
+
+    <div class="caption">
+        <div class="container">
+            <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+        </div>
+    </div>
+
+</div>

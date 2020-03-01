@@ -1,0 +1,8 @@
+#tl_navigation .tl_level_2 .active {
+  text-decoration: underline;
+  color: #000;
+}
+
+#header, #header a {
+    color: #000;
+}

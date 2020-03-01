@@ -1,0 +1,1 @@
+../../vendor/contao/core-bundle/src/Resources/contao/config/tcpdf.php

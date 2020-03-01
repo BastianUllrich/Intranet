@@ -1,0 +1,71 @@
+services:
+  _defaults:
+    public: true
+
+  contao_bootstrap.grid.listeners.build_context_config:
+    class: ContaoBootstrap\Grid\Listener\BuildContextConfigListener
+    tags:
+      - { name: kernel.event_listener, event: contao_bootstrap.core.build_context_config, method: buildThemeConfig }
+
+  contao_bootstrap.grid.listeners.dca.grid:
+    class: ContaoBootstrap\Grid\Listener\Dca\GridListener
+
+    arguments:
+      - '@contao_bootstrap.environment'
+
+  contao_bootstrap.grid.listeners.dca.content:
+    class: ContaoBootstrap\Grid\Listener\Dca\ContentListener
+    arguments:
+      - '@contao_bootstrap.environment'
+      - '@database_connection'
+      - '@contao.framework'
+      - '@contao.image.image_sizes'
+      - '@netzmacht.contao_toolkit.contao.backend_user'
+
+  contao_bootstrap.grid.listeners.dca.form:
+    class: ContaoBootstrap\Grid\Listener\Dca\FormListener
+    arguments:
+      - '@contao_bootstrap.environment'
+
+  contao_bootstrap.grid.listeners.dca.module:
+    class: ContaoBootstrap\Grid\Listener\Dca\ModuleListener
+    arguments:
+      - '@contao_bootstrap.environment'
+
+  contao_bootstrap.grid.listeners.theme_export:
+    class: ContaoBootstrap\Grid\Listener\ThemeExportListener
+    arguments:
+     - '@contao.framework'
+
+  contao_bootstrap.grid.listeners.theme_import:
+    class: ContaoBootstrap\Grid\Listener\ThemeImportListener
+
+  ContaoBootstrap\Grid\Listener\Hook\NewsGridListener:
+    arguments:
+      - '@contao_bootstrap.grid.grid_provider'
+
+  ContaoBootstrap\Grid\Listener\Hook\RegisterFixContentParentRelationsFixerListener:
+    arguments:
+      - '@netzmacht.contao_toolkit.dca.manager'
+      - '%contao_bootstrap.grid.content_parent_drivers%'
+    tags:
+      - { name: 'contao.hook', hook: 'loadDataContainer' }
+
+  ContaoBootstrap\Grid\Listener\Dca\ContentFixParentRelationListener:
+    arguments:
+      - '@netzmacht.contao_toolkit.repository_manager'
+
+  ContaoBootstrap\Grid\Listener\Dca\FormFixFormFieldParentRelationsListener:
+    arguments:
+      - '@netzmacht.contao_toolkit.repository_manager'
+
+  ContaoBootstrap\Grid\Listener\Dca\FormFieldFixParentRelationListener:
+    arguments:
+      - '@netzmacht.contao_toolkit.repository_manager'
+
+  ContaoBootstrap\Grid\Listener\Dca\ParentFixContentParentRelationsListener:
+    arguments:
+      - '@database_connection'
+      - '@netzmacht.contao_toolkit.dca.manager'
+      - '@netzmacht.contao_toolkit.repository_manager'
+      - '@netzmacht.contao_toolkit.contao.input_adapter'

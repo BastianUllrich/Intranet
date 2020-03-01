@@ -1,0 +1,74 @@
+{
+  "name": "contao-themes-net/mate-theme-bundle",
+  "type":"contao-bundle",
+  "description": "mate theme bundle for Contao 4",
+  "keywords":["contao","theme","template"],
+  "homepage": "https://contao-themes.net",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Webdesign für Dresden",
+      "homepage": "https://pdir.de",
+      "email" : "develop@pdir.de",
+      "role" : "Developer"
+    },
+    {
+      "name": "Kostenlose Contao Themes",
+      "homepage": "https://contao-themes.net",
+      "email" : "develop@pdir.de",
+      "role" : "Supplier"
+    }
+  ],
+  "support" : {
+    "docs": "https://docs.contao-themes.net/",
+    "forum": "https://community.contao.org",
+    "email" : "develop@pdir.de",
+    "issues" : "https://github.com/contao-themes-net/mate-theme-bundle/issues",
+    "source" : "https://github.com/contao-themes-net/mate-theme-bundle",
+    "donate": "https://contao-themes.net/sponsoring.html"
+  },
+  "require": {
+    "php": ">=7.1",
+    "contao/core-bundle": "^4.4",
+    "pdir/contao-theme-helper-bundle": "^1.2",
+    "contao-dd/advanced-classes-bundle": "^1.0",
+    "contao-bootstrap/grid": "^2.1",
+    "terminal42/contao-folderpage": "^2.0.5",
+    "contao-themes-net/material-icons-inserttag": "^1.0"
+  },
+  "conflict": {
+    "contao/core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ContaoThemesNet\\MateThemeBundle\\": "src/"
+    },
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/",
+      "src/Resources/contao/templates/"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "ContaoThemesNet\\MateThemeBundle\\ContaoManager\\Plugin"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/user?u=28241718"
+    },
+    {
+      "type": "corporate",
+      "url": "https://contao-themes.net/sponsoring.html"
+    }
+  ],
+  "suggest": {
+    "pdir/maklermodul-bundle": "MATE Theme includes all styles for maklermodul bundle. / MATE Theme enthält Stylesheets für das Maklermodul Bundle.",
+    "pdir/social-feed-bundle": "MATE Theme includes all styles for social feed bundle. / MATE Theme enthält Stylesheets für das Social Feed Bundle",
+    "pdir/animated-timeline-bundle": "Render content in a dynamic timeline. / Zeige Inhalte in einem dynamischen Zeitstrahl an."
+  }
+}

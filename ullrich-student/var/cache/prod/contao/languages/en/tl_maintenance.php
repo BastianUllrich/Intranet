@@ -1,0 +1,43 @@
+<?php
+
+// vendor/contao/core-bundle/src/Resources/contao/languages/en/tl_maintenance.xlf
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheTables'][0] = 'Purge data';
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheTables'][1] = 'Please select the data you want to purge or rebuild.';
+$GLOBALS['TL_LANG']['tl_maintenance']['frontendUser'][0] = 'Front end user';
+$GLOBALS['TL_LANG']['tl_maintenance']['frontendUser'][1] = 'Automatically log in a front end user to index protected pages.';
+$GLOBALS['TL_LANG']['tl_maintenance']['job'] = 'Job';
+$GLOBALS['TL_LANG']['tl_maintenance']['description'] = 'Description';
+$GLOBALS['TL_LANG']['tl_maintenance']['maintenanceMode'] = 'Maintenance mode';
+$GLOBALS['TL_LANG']['tl_maintenance']['maintenanceEnable'] = 'Enable';
+$GLOBALS['TL_LANG']['tl_maintenance']['maintenanceDisable'] = 'Disable';
+$GLOBALS['TL_LANG']['tl_maintenance']['clearCache'] = 'Purge data';
+$GLOBALS['TL_LANG']['tl_maintenance']['cacheCleared'] = 'The data has been purged';
+$GLOBALS['TL_LANG']['tl_maintenance']['searchIndex'] = 'Rebuild the search index';
+$GLOBALS['TL_LANG']['tl_maintenance']['indexSubmit'] = 'Rebuild index';
+$GLOBALS['TL_LANG']['tl_maintenance']['noSearchable'] = 'No searchable pages found';
+$GLOBALS['TL_LANG']['tl_maintenance']['indexNote'] = 'Please wait for the page to load completely before you proceed!';
+$GLOBALS['TL_LANG']['tl_maintenance']['indexLoading'] = 'Please wait while the search index is being rebuilt.';
+$GLOBALS['TL_LANG']['tl_maintenance']['indexComplete'] = 'The search index has been rebuilt. You can now proceed.';
+$GLOBALS['TL_LANG']['tl_maintenance']['updateHelp'] = 'Please enter your %s here.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['index'][0] = 'Purge the search index';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['index'][1] = 'Truncates the tables <code>tl_search</code> and <code>tl_search_index</code>. Afterwards, you have to rebuild the search index (see above).';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['undo'][0] = 'Purge the undo table';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['undo'][1] = 'Truncates the <code>tl_undo</code> table which stores the deleted records. This job permanently deletes these records.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['versions'][0] = 'Purge the version table';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['versions'][1] = 'Truncates the <code>tl_version</code> table which stores the previous versions of a record. This job permanently deletes these records.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['log'][0] = 'Purge the system log';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['log'][1] = 'Truncates the <code>tl_log</code> table which stores all the system log entries. This job permanently deletes these records.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['images'][0] = 'Purge the image cache';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['images'][1] = 'Removes the automatically generated images and then purges the page cache, so there are no links to deleted resources.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['scripts'][0] = 'Purge the script cache';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['scripts'][1] = 'Removes the automatically generated <code>.css</code> and <code>.js</code> files, recreates the internal style sheets and then purges the page cache.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['pages'][0] = 'Purge the page cache';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['pages'][1] = 'Removes the cached versions of the front end pages.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['search'][0] = 'Purge the search cache';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['search'][1] = 'Removes the cached versions of the search results.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['temp'][0] = 'Purge the temp folder';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['temp'][1] = 'Removes the temporary files.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['xml'][0] = 'Recreate the XML files';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['xml'][1] = 'Recreates the XML files (sitemaps and feeds) and then purges the page cache, so there are no links to deleted resources.';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['symlinks'][0] = 'Recreate the symlinks';
+$GLOBALS['TL_LANG']['tl_maintenance_jobs']['symlinks'][1] = 'Recreates the symlinks in the <code>web/</code> folder (document root).';
